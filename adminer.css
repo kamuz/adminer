@@ -534,6 +534,9 @@ td.nowrap {
 .jush a.jush-help {
     cursor: help;
 }
+.jush-sql {
+    font-family: 'Consolas', 'Monaco', monospace;
+}
 .jush-sql a,
 .jush-sql_code a,
 .jush-sqlite a,
