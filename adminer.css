@@ -1,1 +1,67 @@
-pre
+body,
+input,
+select,
+label {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#menu {
+    margin: 0;
+    top: 0;
+}
+
+input[type="submit"] {
+    background-color: #f4f4f4;
+    padding: 5px;
+}
+
+input,
+select {
+    height: 25px;
+    line-height: 1;
+    border: 1px solid #ccc;
+    padding: 0 2px;
+    margin: 0 2px;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    height: auto;
+}
+
+table {
+    font-size: 100%;
+}
+
+td,
+th,
+fieldset,
+pre {
+    border: 1px solid #ccc !important;
+    outline: none;
+}
+
+input.icon {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1,
+h2 {
+    border-bottom: none;
+}
+
+pre,
+code {
+    padding: 5px !important;
+}
+
+pre#sql-1 {
+    display: none;
+}
+
+.jush {
+    font-weight: normal;
+    font-size: 13px;
+}
