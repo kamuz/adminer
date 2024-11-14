@@ -1,5 +1,7 @@
 body,
-input {
+input,
+select,
+label {
 	font-family: 'Segoe UI', sans-serif;
 }
 
@@ -10,8 +12,25 @@ input {
 
 input[type="submit"] {
 	background-color: #f4f4f4;
-	border: 1px solid #ccc;
 	padding: 5px;
+}
+
+input,
+select {
+	height: 25px;
+	line-height: 1;
+	border: 1px solid #ccc;
+	margin: 0 2px;
+	outline: none;
+}
+
+input[type="checkbox"] {
+	height: auto;
+}
+
+select {
+	position: relative;
+	top: 2px;
 }
 
 table {
