@@ -29,6 +29,10 @@ input[type="checkbox"] {
     height: auto;
 }
 
+input[type="file"] {
+    line-height: 23px;
+}
+
 table {
     font-size: 100%;
 }
@@ -36,7 +40,8 @@ table {
 td,
 th,
 fieldset,
-pre {
+pre,
+textarea {
     border: 1px solid #ccc !important;
     outline: none;
 }
@@ -45,6 +50,14 @@ input.icon {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+td {
+    padding: 4px;
+}
+
+td input {
+    margin: 0;
 }
 
 h1,
