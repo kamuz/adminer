@@ -78,3 +78,8 @@ pre#sql-1 {
     font-weight: normal;
     font-size: 13px;
 }
+
+pre code,
+td code {
+    background: none;
+}
