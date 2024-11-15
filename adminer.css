@@ -46,10 +46,27 @@ textarea {
     outline: none;
 }
 
+textarea {
+    width: -webkit-fill-available;
+}
+
 input.icon {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+#breadcrumb {
+    left: 308px;
+}
+
+#content {
+    margin-left: 290px;
+}
+
+body,
+table {
+    width: 100%;
 }
 
 td {
@@ -63,6 +80,10 @@ td input {
 h1,
 h2 {
     border-bottom: none;
+}
+
+h2 {
+    margin: 0;
 }
 
 pre,
