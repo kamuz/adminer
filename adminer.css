@@ -1,28 +1,27 @@
-body,
-input,
-select,
-label {
+body,input,select,label {
     font-family: 'Segoe UI', sans-serif;
 }
 
 #menu {
-    margin: 0;
     top: 0;
+
+    margin: 0;
 }
 
 input[type="submit"] {
-    background-color: #f4f4f4;
     padding: 5px;
+
+    background-color: #f4f4f4;
 }
 
-input,
-select {
+input,select {
     height: 25px;
-    line-height: 1;
-    border: 1px solid #ccc;
     padding: 0 2px;
     margin: 0 2px;
+    border: 1px solid #ccc;
     outline: none;
+
+    line-height: 1;
 }
 
 input[type="checkbox"] {
@@ -37,11 +36,7 @@ table {
     font-size: 100%;
 }
 
-td,
-th,
-fieldset,
-pre,
-textarea {
+td,th,fieldset,pre,textarea {
     border: 1px solid #ccc !important;
     outline: none;
 }
@@ -51,8 +46,8 @@ textarea {
 }
 
 input.icon {
-    margin: 0;
     padding: 0;
+    margin: 0;
     border: none;
 }
 
@@ -64,8 +59,7 @@ input.icon {
     margin-left: 290px;
 }
 
-body,
-table {
+body,table {
     width: 100%;
 }
 
@@ -77,8 +71,7 @@ td input {
     margin: 0;
 }
 
-h1,
-h2 {
+h1,h2 {
     border-bottom: none;
 }
 
@@ -86,8 +79,7 @@ h2 {
     margin: 0;
 }
 
-pre,
-code {
+pre,code {
     padding: 5px !important;
 }
 
@@ -96,11 +88,10 @@ pre#sql-1 {
 }
 
 .jush {
-    font-weight: normal;
     font-size: 13px;
+    font-weight: normal;
 }
 
-pre code,
-td code {
+pre code,td code {
     background: none;
 }
