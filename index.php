@@ -6,4 +6,4 @@ function adminer_object() {
         new AdminerLoginPasswordLess(password_hash("root", PASSWORD_DEFAULT)),
     ));
 }
-include "adminer-core.php";
+include "adminer-4.8.1-en.php";
