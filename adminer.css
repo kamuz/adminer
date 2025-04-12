@@ -5,6 +5,10 @@ label {
     font-family: 'Segoe UI', sans-serif;
 }
 
+#version {
+    display: none;
+}
+
 #menu {
     margin: 0;
     top: 0;
